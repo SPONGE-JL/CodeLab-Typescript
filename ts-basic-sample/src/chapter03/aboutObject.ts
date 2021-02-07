@@ -1,7 +1,7 @@
 const topic: string = `
-----------------------------------------------
+------------------------------------------------
 | Chapter 3.1 | declare 'object' in typescript |
-----------------------------------------------
+------------------------------------------------
 The 'let' keyword can define and reset the value (valid in block scope).
 The 'const' keyword can defind and be immutable the value (valid in block scope).
 (e.g) let name [= value]

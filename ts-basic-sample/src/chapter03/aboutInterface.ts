@@ -1,8 +1,4 @@
-interface IPerson {
-  name: string;
-  role: number;
-  desc?: string;
-}
+import IPerson from "../parts/Person/IPerson";
 
 const explainDetail = () => {
   console.log("> Check this example.");
