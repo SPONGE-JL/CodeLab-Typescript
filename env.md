@@ -137,3 +137,4 @@
 	rm gitflow-installer.sh
 	```
 
+10. [remote vscode](https://code.visualstudio.com/docs/remote/ssh)
