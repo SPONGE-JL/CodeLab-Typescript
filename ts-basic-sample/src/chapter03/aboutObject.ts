@@ -19,7 +19,7 @@ const aboutObject = (): void => {
   let obj: object = { nickname: "SPONGE-JL", position: "Backend" };
   console.log(" -   initial obj = ", obj);
   obj = { name: "Lee, Jeongyeol", Timezone: "GMT+9" };
-  console.log(" - redefined obj = ", obj);
+  console.log(" - redefined obj = ", obj, "\n");
 };
 
 export default aboutObject;

@@ -1,7 +1,13 @@
 import aboutObject from "./aboutObject";
+import aboutInterface from "./aboutInterface";
 
-const chapter03 = {
-  aboutObject,
+const explain = () => {
+  aboutObject();
+  aboutInterface();
 };
 
-export default chapter03;
+const Chapter03 = {
+  explain,
+};
+
+export default Chapter03;

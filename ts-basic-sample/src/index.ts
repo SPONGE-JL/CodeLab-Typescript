@@ -1,4 +1,4 @@
-import chapter03 from "./chapter03";
+import Chapter03 from "./chapter03";
 
 console.log("Typescript Basic Sample Package");
 console.log("-------------------------------");
@@ -8,7 +8,7 @@ console.log(`>> Selected chNum: ${chNum}`);
 
 switch (Number(chNum[0])) {
   case 3:
-    chapter03.aboutObject();
+    Chapter03.explain();
     break;
 
   default:
