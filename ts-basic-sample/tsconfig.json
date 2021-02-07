@@ -13,9 +13,7 @@
     "forceConsistentCasingInFileNames": true,
     
     "baseUrl": ".",
-    "paths": {
-      "@/utils/*": ["utils/*"]
-    },
+    "paths": {},
   },
   "exclude": ["node_modules"],
   "include": ["**/*.ts"],

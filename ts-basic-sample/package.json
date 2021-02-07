@@ -4,11 +4,13 @@
   "description": "Typescript basic sample package",
   "main": "srr/index.js",
   "scripts": {
+    "reinstall": "rm -rf node_modules dist && npm install",
     "study": "ts-node src $chapter"
   },
   "keywords": [
     "Typescript"
   ],
+  "repository": "https://github.com/SPONGE-JL/CodeLab-Typescript",
   "author": "SPOGNE-JL (dev2sponge@gmail.com)",
   "license": "ISC",
   "devDependencies": {
