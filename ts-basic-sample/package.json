@@ -2,7 +2,7 @@
   "name": "ts-basic-sample",
   "version": "1.0.0",
   "description": "Typescript basic sample package",
-  "main": "srr/index.js",
+  "main": "src/index.js",
   "scripts": {
     "reinstall": "rm -rf node_modules dist && npm install",
     "study": "ts-node src $chapter"

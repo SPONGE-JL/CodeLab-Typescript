@@ -12,9 +12,9 @@ export default class Person extends APerson {
 
   introduce() {
     console.log(`
-    Hello, my name is '${this.name}'.
+    Hello, my name is '${this.name}'
     ${this.desc}
-    These are my favorites - ${this.favorites.toString}
+    These are my favorites - ${this.favorites.toString()}
     `);
   }
 }

@@ -12,9 +12,10 @@
     "skipLibCheck": true,
     "forceConsistentCasingInFileNames": true,
     
+    "outDir": "dist",
     "baseUrl": ".",
     "paths": {},
   },
   "exclude": ["node_modules"],
-  "include": ["**/*.ts"],
+  "include": ["src/**/*.ts"],
 }
