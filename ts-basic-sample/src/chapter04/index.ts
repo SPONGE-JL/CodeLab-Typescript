@@ -1,7 +1,7 @@
-import aboutMethod from "./aboutMethod";
+import aboutFunction from "./aboutFunction";
 
 const explain = (): void => {
-  aboutMethod();
+  aboutFunction();
 };
 
 const Chapter04 = {
