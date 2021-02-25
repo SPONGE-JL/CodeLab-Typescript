@@ -1,5 +1,6 @@
 import Chapter03 from "./chapter03";
 import Chapter04 from "./chapter04";
+import Chapter05 from "./chapter05";
 
 console.log("Typescript Basic Sample Package");
 console.log("-------------------------------");
@@ -14,6 +15,10 @@ switch (Number(chNum[0])) {
 
   case 4:
     Chapter04.explain();
+    break;
+
+  case 5:
+    Chapter05.explain();
     break;
 
   default:
