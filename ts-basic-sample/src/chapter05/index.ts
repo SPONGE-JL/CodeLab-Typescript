@@ -1,5 +1,7 @@
+import aboutArrayPart1 from "./aboutArrayPart1";
+
 const explain = (): void => {
-  console.log("Chapter05. Array & Tuple.");
+  aboutArrayPart1();
 };
 
 const Chapter05 = {
