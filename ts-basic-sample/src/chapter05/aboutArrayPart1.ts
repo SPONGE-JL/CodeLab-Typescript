@@ -10,6 +10,7 @@ array of character. So 'split(<string>)' function can split the object of String
 
   const welcomeMsg: string = "Hello, world!";
   const splitMsg: string[] = welcomeMsg.split(" ");
+  const concatMsg: string = splitMsg.join(' ');
 `;
 
 const aboutArrayPart1 = () => {
@@ -22,7 +23,11 @@ const aboutArrayPart1 = () => {
   const splitMsg: string[] = welcomeMsg.split(" ");
   console.log(` >> Array.isArray(splitMsg): ${Array.isArray(splitMsg)}`);
   console.log(` >> splitMsg[0]: ${splitMsg[0]}`);
-  console.log(` >> splitMsg[1]: ${splitMsg[1]}`);
+  console.log(` >> splitMsg[1]: ${splitMsg[1]}\n`);
+
+  const concatMsg: string = splitMsg.join(" ");
+  console.log(` >> Array.isArray(concatMsg): ${Array.isArray(concatMsg)}`);
+  console.log(` >> concatMsg: ${concatMsg}`);
 };
 
 export default aboutArrayPart1;
