@@ -1,10 +1,8 @@
 # 100mins-ts-backlog [Typescript]
 
-For all summary in this [gist]().
-
 ## Backlog list
 
-### `fucntion`
+### `function`
 
 | **Topic**                               | **Go to** |
 | :-------------------------------------- | :-------- | 
