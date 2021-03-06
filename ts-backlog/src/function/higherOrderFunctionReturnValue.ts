@@ -13,14 +13,14 @@ const higherOrderFunc: hoFuncRetFunc = (callback: func): func => {
 
 console.log(" * start");
 const outputFunc: func = higherOrderFunc(inputFunc);
-console.log(` | (out) typeof ${typeof outputFunc}`);
+console.log(` | (out) typeof outputFunc: ${typeof outputFunc}`);
 console.log(` | (out) outputFunc(1): ${outputFunc(1)}`);
 console.log(" * done");
 
 /*
  * start
  | (in higherOrderFunc) typeof callback: function
- | (out) typeof function
+ | (out) typeof outputFunc: function
  | (in inputFunc) num: 1
  | (out) outputFunc(1): 4
  * done
