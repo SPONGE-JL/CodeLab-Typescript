@@ -40,7 +40,7 @@ interface Name {
 `;
 
 const seeMore: string = `
-> See more.. https://www.typescriptlang.org/docs/handbook/interfaces.html;
+> See more.. https://www.typescriptlang.org/docs/handbook/interfaces.html
 `;
 
 const aboutInterface = (): void => {

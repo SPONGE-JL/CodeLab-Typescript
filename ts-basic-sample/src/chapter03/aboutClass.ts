@@ -1,3 +1,4 @@
+import APerson from "../parts/Person/APerson";
 import Person from "../parts/Person";
 
 const topic: string = `
@@ -15,7 +16,13 @@ const aboutClass = (): void => {
 
   console.log("> Check this example.");
 
-  const jimmy: Person = new Person("Jack More", 0, "You can call me 'Jimmy");
+  const jimmy: APerson = new Person(
+    "Jack Moral",
+    0,
+    [],
+    "You can call me 'Jimmy'"
+  );
+
   jimmy.addFavorite("drawing");
   jimmy.addFavorite("photography");
   jimmy.addFavorite("cycling");
