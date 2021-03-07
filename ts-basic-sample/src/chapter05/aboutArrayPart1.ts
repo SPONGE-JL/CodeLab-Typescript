@@ -17,17 +17,17 @@ const aboutArrayPart1 = () => {
   console.log(topic);
 
   const welcomeMsg: string = "Hello, world!";
-  console.log(` >> Array.isArray(welcomeMsg): ${Array.isArray(welcomeMsg)}`);
-  console.log(` >> welcomeMsg: ${welcomeMsg}\n`);
+  console.log(`  >> Array.isArray(welcomeMsg): ${Array.isArray(welcomeMsg)}`);
+  console.log(`  >> welcomeMsg: ${welcomeMsg}\n`);
 
   const splitMsg: string[] = welcomeMsg.split(" ");
-  console.log(` >> Array.isArray(splitMsg): ${Array.isArray(splitMsg)}`);
-  console.log(` >> splitMsg[0]: ${splitMsg[0]}`);
-  console.log(` >> splitMsg[1]: ${splitMsg[1]}\n`);
+  console.log(`  >> Array.isArray(splitMsg): ${Array.isArray(splitMsg)}`);
+  console.log(`  >> splitMsg[0]: ${splitMsg[0]}`);
+  console.log(`  >> splitMsg[1]: ${splitMsg[1]}\n`);
 
   const concatMsg: string = splitMsg.join(" ");
-  console.log(` >> Array.isArray(concatMsg): ${Array.isArray(concatMsg)}`);
-  console.log(` >> concatMsg: ${concatMsg}`);
+  console.log(`  >> Array.isArray(concatMsg): ${Array.isArray(concatMsg)}`);
+  console.log(`  >> concatMsg: ${concatMsg}`);
 };
 
 export default aboutArrayPart1;
