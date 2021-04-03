@@ -17,5 +17,5 @@
     "paths": {},
   },
   "exclude": ["node_modules"],
-  "include": ["src/**/*.ts", "src/important.js"],
+  "include": ["src/**/*.ts", "src/important.js", "src/promise/example.js"],
 }
