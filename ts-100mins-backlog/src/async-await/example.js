@@ -1,37 +1,39 @@
 const puppeteer = require("puppeteer");
 
-console.log("init");
+const now = () => new Date();
+
+const wait = (ms) => {
+  return new Promise((resolve) =>
+    setTimeout(() => {
+      console.log(now(), `timeout! ${ms}`);
+      resolve();
+    }, ms)
+  );
+};
+
+console.log(now(), "init");
 (async () => {
-  console.log(1);
-  setTimeout(() => {
-    console.log(">> init inner");
-  }, 1000);
+  console.log(now(), ">> init inner");
+  await wait(1000);
 
   const browser = await puppeteer.launch();
-  console.log(">> browser launched");
+  console.log(now(), ">> browser launched");
+  await wait(1000);
 
   const page = await browser.newPage();
-  console.log(3);
-  setTimeout(() => {
-    console.log(">> new page");
-  }, 1000);
+  console.log(now(), ">> new page");
+  await wait(1000);
 
   await page.goto("https://example.com");
-  console.log(4);
-  setTimeout(() => {
-    console.log(">> go to");
-  }, 1000);
+  console.log(now(), ">> go to");
+  await wait(1000);
 
   await page.screenshot({ path: "example1.png" });
-  console.log(5);
-  setTimeout(() => {
-    console.log(">> screenshoot");
-  }, 1000);
+  console.log(now(), ">> screenshoot");
+  await wait(1000);
 
   await browser.close();
-  console.log(6);
-  setTimeout(() => {
-    console.log(">> close");
-  }, 1000);
+  console.log(now(), ">> close");
+  await wait(1000);
 })();
-console.log("done");
+console.log(now(), "done");
